@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Graph_JOVAC/Graph_JOVAC.iml" filepath="$PROJECT_DIR$/Graph_JOVAC/Graph_JOVAC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HEAP_Jovac/HEAP_Jovac.iml" filepath="$PROJECT_DIR$/HEAP_Jovac/HEAP_Jovac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linked_List/Linked_List.iml" filepath="$PROJECT_DIR$/Linked_List/Linked_List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Map/Map.iml" filepath="$PROJECT_DIR$/Map/Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPS/OOPS.iml" filepath="$PROJECT_DIR$/OOPS/OOPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rough/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Rough/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rough/Rough.iml" filepath="$PROJECT_DIR$/Rough/Rough.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Set/Set.iml" filepath="$PROJECT_DIR$/Set/Set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stacks and Queues/Stacks and Queues.iml" filepath="$PROJECT_DIR$/Stacks and Queues/Stacks and Queues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Super_150_DSA.iml" filepath="$PROJECT_DIR$/Super_150_DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Trees_Emersion/Trees_Emersion.iml" filepath="$PROJECT_DIR$/Trees_Emersion/Trees_Emersion.iml" />
+    </modules>
+  </component>
+</project>
