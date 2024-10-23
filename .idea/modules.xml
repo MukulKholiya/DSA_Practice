@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dynamic_Programming/Dynamic_Programming.iml" filepath="$PROJECT_DIR$/Dynamic_Programming/Dynamic_Programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/Graph_JOVAC/Graph_JOVAC.iml" filepath="$PROJECT_DIR$/Graph_JOVAC/Graph_JOVAC.iml" />
       <module fileurl="file://$PROJECT_DIR$/HEAP_Jovac/HEAP_Jovac.iml" filepath="$PROJECT_DIR$/HEAP_Jovac/HEAP_Jovac.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linked_List/Linked_List.iml" filepath="$PROJECT_DIR$/Linked_List/Linked_List.iml" />
