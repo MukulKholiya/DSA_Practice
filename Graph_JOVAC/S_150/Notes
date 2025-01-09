@@ -1,0 +1,13 @@
+In adjacency matrix , there is loss of space complexity for holding non neighbour vertices i.e (i,j)=0
+In adjacency list searching of connection between two vertices takes O(n) time  complexity.
+To overcome both problems, we came up with HashMap as a solution.
+Hashmap<Integer,Hashmap<Integer,Integer>> our structure for Graph.
+Complete Graph : Every vertex connected with each and every vertex. Total vertices = n(n-1)/2 .
+
+5 important steps for graphs:-
+
+1.) remove
+2.) ignore
+3.) mark visited
+4.) self work
+5.) add visited
