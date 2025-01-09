@@ -1,7 +1,4 @@
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class Graph2 {
     private HashMap<Integer, HashMap<Integer,Integer>> map;
@@ -71,6 +68,57 @@ public class Graph2 {
         }
         return false;
 
+    }
+
+    public boolean DFS(int src,int des){
+//        Queue<Integer> q = new LinkedList<>();
+        Stack<Integer> st = new Stack<>();
+        HashSet<Integer> visited = new HashSet<>();
+        st.add(src);
+        while(!st.isEmpty()){
+//            remove
+            int rv = st.pop();
+//            ignore if already present in queue
+            if(visited.contains(rv)){
+                continue;
+            }
+//            mark visited
+            visited.add(rv);
+            if(rv == des){
+                return true;
+            }
+            for(int nbrs:map.get(rv).keySet()){
+                if(!visited.contains(nbrs)){
+                    st.push(nbrs);
+                }
+            }
+        }
+        return false;
 
     }
+//    no src , no des
+    public void BFT(){
+        Queue<Integer> q = new LinkedList<>();
+        HashSet<Integer> visited = new HashSet<>();
+        for(int src : map.keySet()) {
+            if(visited.contains(src)) continue; // jispe bfs lag gyi us pe mat lagao.
+            q.add(src);
+            while (!q.isEmpty()) {
+                int rv = q.poll();
+                if (visited.contains(rv)) {
+                    continue;
+                }
+                visited.add(rv);
+                System.out.println(rv + " ");
+                for (int nbrs : map.get(rv).keySet()) {
+                    if (!visited.contains(nbrs)) {
+                        q.add(nbrs);
+                    }
+                }
+            }
+        }
+
+    }
+
+
 }

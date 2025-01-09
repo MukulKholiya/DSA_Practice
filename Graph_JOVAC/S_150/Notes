@@ -11,3 +11,7 @@ Complete Graph : Every vertex connected with each and every vertex. Total vertic
 3.) mark visited
 4.) self work
 5.) add visited
+
+BFT (Breadth First Traversal) algorithm used to traverse the graph,
+helps in finding connected component, count of components etc.
+(BFS , DFS , BFT ) all have same complexity O(V+E).
