@@ -15,3 +15,6 @@ Complete Graph : Every vertex connected with each and every vertex. Total vertic
 BFT (Breadth First Traversal) algorithm used to traverse the graph,
 helps in finding connected component, count of components etc.
 (BFS , DFS , BFT ) all have same complexity O(V+E).
+
+DSU was good but the complexity for find and union was log(n), we need to optimize it by using PATH COMPRESSION.
+(refer cp algorithm)
