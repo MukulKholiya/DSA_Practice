@@ -18,3 +18,10 @@ helps in finding connected component, count of components etc.
 
 DSU was good but the complexity for find and union was log(n), we need to optimize it by using PATH COMPRESSION.
 (refer cp algorithm)
+
+Single source shortest path algorithm:
+1. BellmanFord Algorithm
+2. Dijkstra Algorithm
+
+
+Topological sorting is not real sorting , it is for directed cyclic graph for detecting cycles.
