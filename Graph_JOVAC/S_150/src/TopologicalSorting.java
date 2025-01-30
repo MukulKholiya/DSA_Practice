@@ -36,6 +36,26 @@ public class TopologicalSorting {
             }
         }
     }
+    public boolean isCycle(){
+        int[] in = indegree();
+        Queue<Integer> q = new LinkedList<>();
+        for (int i = 0; i < in.length; i++) {
+            if(in[i]==0) q.add(i);
+        }
+        int c = 0;
+        while(!q.isEmpty()){
+            int r = q.poll();
+            c++;
+            System.out.println(r+" ");
+            for(int nbrs:map.get(r)){
+                in[nbrs]--;
+                if(in[nbrs]==0){
+                    q.add(nbrs);
+                }
+            }
+        }
+        return c != map.size(); // cycle h
+    }
 
     public static void main(String[] args) {
         TopologicalSorting ts = new TopologicalSorting(8);
